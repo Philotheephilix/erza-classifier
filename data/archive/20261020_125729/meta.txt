@@ -1,0 +1,6 @@
+n_samples=9000
+seed=42
+total=9160
+shape=(9160, 151)
+built=20261020_125729
+categories=['message', 'email', 'social', 'promo', 'transaction', 'system', 'delivery', 'reminder']

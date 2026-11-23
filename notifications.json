@@ -1,0 +1,538 @@
+{
+  "extracted_at": "2026-10-18T12:03:15.183413+00:00",
+  "analysis": {
+    "total": 24,
+    "active_count": 23,
+    "dismissed_count": 1,
+    "by_app": {
+      "Snapchat": 9,
+      "System UI": 3,
+      "Discord": 2,
+      "Google Search": 2,
+      "com.ubercab": 1,
+      "com.rapido.passenger": 1,
+      "Instagram": 1,
+      "Blinkit": 1,
+      "Amazon": 1,
+      "Jupiter": 1,
+      "Zepto": 1,
+      "Google Messages": 1
+    },
+    "by_category": {
+      "message": 12,
+      "other": 8,
+      "system": 4
+    },
+    "top_senders": {
+      "Snapchat": {
+        "Sugan": 1,
+        "Freddy": 1,
+        "Faaz": 1,
+        "Rathish": 1,
+        "Goldwin": 1,
+        "Charles": 1,
+        "Goodwin": 1,
+        "Neonns": 1,
+        "Ashwath": 1
+      }
+    },
+    "data_sources": [
+      "dumpsys_notification (active)",
+      "logcat_events_buffer (session since boot)"
+    ],
+    "note": "Logcat buffer covers current boot session only — not 7 full days unless device has been on that long without reboot"
+  },
+  "notifications": [
+    {
+      "package": "com.ubercab",
+      "app": "com.ubercab",
+      "id": 0,
+      "channel": "trip_take_ride_channels",
+      "sender": null,
+      "ticker": "null",
+      "title": null,
+      "text": null,
+      "timestamp_ms": 1792267780764,
+      "timestamp_iso": "2026-10-17T20:09:40.764000+00:00",
+      "importance": "LOW",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "ONGOING_EVENT",
+        "NO_CLEAR",
+        "LOCAL_ONLY",
+        "GROUP_SUMMARY",
+        "AUTOGROUP_SUMMARY",
+        "SILENT"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.rapido.passenger",
+      "app": "com.rapido.passenger",
+      "id": 0,
+      "channel": "promotional",
+      "sender": null,
+      "ticker": "null",
+      "title": null,
+      "text": null,
+      "timestamp_ms": 1792286055982,
+      "timestamp_iso": "2026-10-18T01:14:15.982000+00:00",
+      "importance": "LOW",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "ONGOING_EVENT",
+        "NO_CLEAR",
+        "LOCAL_ONLY",
+        "GROUP_SUMMARY",
+        "AUTOGROUP_SUMMARY",
+        "SILENT"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.instagram.android",
+      "app": "Instagram",
+      "id": 64278,
+      "channel": "ig_direct",
+      "sender": null,
+      "ticker": "Reacted 😂 to your message",
+      "title": "Sairam",
+      "text": "Reacted 😂 to your message",
+      "timestamp_ms": 1792320502816,
+      "timestamp_iso": "2026-10-18T10:48:22.816000+00:00",
+      "importance": "HIGH",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.grofers.customerapp",
+      "app": "Blinkit",
+      "id": 11,
+      "channel": "others",
+      "sender": null,
+      "ticker": "Get kala chana, sooji, ghee & more delivered at your doorstep ✅",
+      "title": "All set for Kanjak? ✨",
+      "text": "Get kala chana, sooji, ghee & more delivered at your doorstep ✅",
+      "timestamp_ms": 1792321241255,
+      "timestamp_iso": "2026-10-18T11:00:41.255000+00:00",
+      "importance": "LOW",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "SHOW_LIGHTS",
+        "ONLY_ALERT_ONCE",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": -601027444,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Sugan",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Sugan",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792321556724,
+      "timestamp_iso": "2026-10-18T11:05:56.724000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": 140840148,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Freddy",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Freddy Selvanathan",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792321699330,
+      "timestamp_iso": "2026-10-18T11:08:19.330000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.discord",
+      "app": "Discord",
+      "id": 0,
+      "channel": "messages",
+      "sender": null,
+      "ticker": "null",
+      "title": "Portaldot #🎮┃game-hall: Steve",
+      "text": null,
+      "timestamp_ms": 1792321711807,
+      "timestamp_iso": "2026-10-18T11:08:31.807000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "ONLY_ALERT_ONCE",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": 385147493,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Faaz",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Faaz Licet",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792322029678,
+      "timestamp_iso": "2026-10-18T11:13:49.678000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": 1041415004,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Rathish",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Rathish",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792322276468,
+      "timestamp_iso": "2026-10-18T11:17:56.468000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "in.amazon.mShop.android.shopping",
+      "app": "Amazon",
+      "id": 1,
+      "channel": "0",
+      "sender": null,
+      "ticker": "Hurry! This is your chance to save 10% extra*",
+      "title": "Your next big saving is here!",
+      "text": "Hurry! This is your chance to save 10% extra*",
+      "timestamp_ms": 1792322352048,
+      "timestamp_iso": "2026-10-18T11:19:12.048000+00:00",
+      "importance": "LOW",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": 1428781548,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Goldwin",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Goldwin Jaffee",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792322360969,
+      "timestamp_iso": "2026-10-18T11:19:20.969000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": 1880149994,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Charles",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Charles M S",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792323946767,
+      "timestamp_iso": "2026-10-18T11:45:46.767000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "money.jupiter",
+      "app": "Jupiter",
+      "id": 1792316631,
+      "channel": "Default",
+      "sender": null,
+      "ticker": "null",
+      "title": "✨ Navratri Day 8 Challenge!",
+      "text": "Pay for the most food & grocery orders today. Top 10 users win ₹1,000 in digital gold each!",
+      "timestamp_ms": 1792323996142,
+      "timestamp_iso": "2026-10-18T11:46:36.142000+00:00",
+      "importance": "LOW",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.discord",
+      "app": "Discord",
+      "id": 0,
+      "channel": "messages",
+      "sender": null,
+      "ticker": "null",
+      "title": "Pawan.Krd #📢𝐀𝐧𝐧𝐨𝐮𝐧𝐜𝐞𝐦𝐞𝐧𝐭: Pawan",
+      "text": null,
+      "timestamp_ms": 1792324100878,
+      "timestamp_iso": "2026-10-18T11:48:20.878000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "ONLY_ALERT_ONCE",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.zeptoconsumerapp",
+      "app": "Zepto",
+      "id": -1836317980,
+      "channel": "default_channel_id",
+      "sender": null,
+      "ticker": "null",
+      "title": null,
+      "text": null,
+      "timestamp_ms": 1792324449031,
+      "timestamp_iso": "2026-10-18T11:54:09.031000+00:00",
+      "importance": "LOW",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": -1536610902,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Goodwin",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Goodwin Joe",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792324479269,
+      "timestamp_iso": "2026-10-18T11:54:39.269000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.android.systemui",
+      "app": "System UI",
+      "id": 10004,
+      "channel": "INS",
+      "sender": null,
+      "ticker": "null",
+      "title": "USB debugging enabled",
+      "text": "Disable USB debugging",
+      "timestamp_ms": 1792324555208,
+      "timestamp_iso": "2026-10-18T11:55:55.208000+00:00",
+      "importance": "MIN",
+      "category_raw": null,
+      "category": "system",
+      "flags": [
+        "ONGOING_EVENT",
+        "NO_CLEAR"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.android.systemui",
+      "app": "System UI",
+      "id": 10005,
+      "channel": "INS",
+      "sender": null,
+      "ticker": "null",
+      "title": "Charging this device via USB",
+      "text": "Tap for more options",
+      "timestamp_ms": 1792324555210,
+      "timestamp_iso": "2026-10-18T11:55:55.210000+00:00",
+      "importance": "MIN",
+      "category_raw": null,
+      "category": "system",
+      "flags": [
+        "ONGOING_EVENT",
+        "NO_CLEAR",
+        "SILENT"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.android.systemui",
+      "app": "System UI",
+      "id": 1,
+      "channel": "INS",
+      "sender": null,
+      "ticker": "null",
+      "title": null,
+      "text": null,
+      "timestamp_ms": 1792324558244,
+      "timestamp_iso": "2026-10-18T11:55:58.244000+00:00",
+      "importance": "MIN",
+      "category_raw": null,
+      "category": "system",
+      "flags": [
+        "ONGOING_EVENT",
+        "NO_CLEAR",
+        "LOCAL_ONLY",
+        "GROUP_SUMMARY",
+        "AUTOGROUP_SUMMARY"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": -87542875,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Neonns",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Neonns",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792324827285,
+      "timestamp_iso": "2026-10-18T12:00:27.285000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.google.android.googlequicksearchbox",
+      "app": "Google Search",
+      "id": 0,
+      "channel": "71",
+      "sender": null,
+      "ticker": "24° in Bengaluru",
+      "title": null,
+      "text": null,
+      "timestamp_ms": 1792324884000,
+      "timestamp_iso": "2026-10-18T12:01:24+00:00",
+      "importance": "MIN",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "ONLY_ALERT_ONCE",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.google.android.googlequicksearchbox",
+      "app": "Google Search",
+      "id": 0,
+      "channel": "71",
+      "sender": null,
+      "ticker": "null",
+      "title": "Google",
+      "text": "You have a notification",
+      "timestamp_ms": 1792324884601,
+      "timestamp_iso": "2026-10-18T12:01:24.601000+00:00",
+      "importance": "MIN",
+      "category_raw": null,
+      "category": "other",
+      "flags": [
+        "GROUP_SUMMARY"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.snapchat.android",
+      "app": "Snapchat",
+      "id": 1488833096,
+      "channel": "sc_0a1_gr5_[ch3]~B2LV[3]S[generic_push]Bc",
+      "sender": "Ashwath",
+      "ticker": "sent you a Snap • 🔥",
+      "title": "Ashwath",
+      "text": "sent you a Snap • 🔥",
+      "timestamp_ms": 1792324941038,
+      "timestamp_iso": "2026-10-18T12:02:21.038000+00:00",
+      "importance": "LOW",
+      "category_raw": "msg",
+      "category": "message",
+      "flags": [
+        "SHOW_LIGHTS",
+        "AUTO_CANCEL"
+      ],
+      "status": "active"
+    },
+    {
+      "package": "com.google.android.apps.messaging",
+      "app": "Google Messages",
+      "id": 174344743,
+      "timestamp_iso": "2026-10-18T17:12:37+00:00",
+      "timestamp_ms": 1792343557000,
+      "channel": "bugle_broadcast_receiver_channel",
+      "sender": null,
+      "title": null,
+      "text": null,
+      "ticker": null,
+      "importance": null,
+      "category": "system",
+      "category_raw": "service",
+      "flags": [
+        "ONGOING_EVENT",
+        "NO_CLEAR",
+        "FOREGROUND_SERVICE",
+        "LOCAL_ONLY"
+      ],
+      "status": "dismissed_or_replaced"
+    }
+  ]
+}
